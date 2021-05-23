@@ -1,0 +1,39 @@
+.button {
+  min-width: 177px;
+  min-height: 50px;
+  padding: 0.3125rem 0.9375rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  line-height: 11px;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #ffffff;
+}
+
+.button_theme-transparent {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.button_theme-dark {
+  background-color: #010001;
+  color: #ffffff;
+  border: 1px solid #010001;
+}
+
+.button_theme-no-bg {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}

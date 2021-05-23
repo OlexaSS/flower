@@ -1,0 +1,18 @@
+.social-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.social-box__item {
+  cursor: pointer;
+}
+
+.social-box__link {
+  display: block;
+}
+
+.social-box__img {
+  display: block;
+}

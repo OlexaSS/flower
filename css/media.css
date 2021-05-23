@@ -1,0 +1,325 @@
+@media (min-width: 768px) {
+  .header {
+    padding: 35px 40px 30px 40px;
+    background-color: transparent;
+  }
+  .nav {
+    padding: 112px 16px 161px 16px;
+  }
+  .logo {
+    width: 137px;
+    height: auto;
+  }
+  .menu-list__link {
+    font-size: 30px;
+    line-height: 33px;
+  }
+  .menu-list__item {
+    max-width: 395px;
+  }
+  .stage {
+    background-position: top;
+    padding: 121px 16px 131px 16px;
+    justify-content: flex-end;
+  }
+  .stage__title {
+    font-size: 70px;
+    line-height: 77px;
+    max-width: 567px;
+  }
+  .stage__button {
+    min-width: 257px;
+    min-height: 60px;
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .stage .social-box {
+    max-width: 460px;
+    width: 100%;
+  }
+  .stage .social-box__item {
+    width: 55px;
+    height: 55px;
+    transition: 0.3s ease;
+  }
+  .stage .social-box__item:hover {
+    transform: scale(1.8);
+  }
+  .stage .social-box__img {
+    width: 29px;
+    height: 29px;
+  }
+  .stage__button {
+    margin-top: 80px;
+  }
+  .stage__social-box {
+    margin-top: 211px;
+  }
+  .stage__scroll {
+    bottom: 5%;
+  }
+  .scroll__arrow-img {
+    width: 40px;
+    height: 40px;
+  }
+  .catalog-preview {
+    padding: 100px 40px 50px 40px;
+  }
+  .catalog-preview__title {
+    font-size: 30px;
+    line-height: 33px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    position: relative;
+  }
+  .catalog-preview__title::after {
+    content: '';
+    display: block;
+    width: 85px;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 50%;
+    bottom: -22px;
+    transform: translateX(-50%);
+  }
+  .catalog-preview__catalog-slider {
+    margin: 54px auto 0 auto;
+  }
+  .catalog-slider {
+    max-width: 688px;
+    width: 100%;
+    min-height: 450px;
+  }
+  .catalog-slider__pagination {
+    max-width: 137px;
+    width: 100%;
+    margin: 20px auto 0 auto;
+  }
+  .offers-info {
+    text-align: center;
+  }
+  .offers-info__title {
+    font-size: 30px;
+    line-height: 51px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    max-width: 100%;
+  }
+  .offers-info__title::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .offers-info__button {
+    margin: 15px auto 0 auto;
+  }
+  .footer-nav__link {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .footer-nav__item + .footer-nav__item {
+    margin-top: 20px;
+  }
+  .footer .social-box__item {
+    transition: 0.3s ease;
+  }
+  .footer .social-box__item:hover {
+    transform: scale(1.8);
+  }
+}
+
+@media (min-width: 1920px) {
+  .header {
+    padding: 87px 96px 16px 96px;
+  }
+  .logo {
+    width: 158px;
+    height: auto;
+  }
+  .nav {
+    padding-top: 87px;
+  }
+  .menu-list__link {
+    font-size: 35px;
+    line-height: 39px;
+  }
+  .menu-list__link:hover {
+    transform: scale(1.2);
+  }
+  .stage {
+    background-image: linear-gradient(0deg, #3B181E 3%, rgba(59, 24, 30, 0) 75px), url("../img/main-page/background-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    justify-content: center;
+  }
+  .stage__title {
+    font-size: 120px;
+    line-height: 132px;
+    text-align: center;
+    letter-spacing: 0.09em;
+    max-width: 818px;
+  }
+  .stage__scroll {
+    bottom: 10%;
+  }
+  .stage__social-box {
+    position: absolute;
+    left: 96px;
+    bottom: 100px;
+    margin: 0;
+  }
+  .burger-menu {
+    width: 100px;
+    display: flex;
+    align-items: center;
+  }
+  .burger-menu__burger {
+    flex-grow: 1;
+  }
+  .burger-menu__title {
+    display: block;
+  }
+  .scroll__arrow-img {
+    display: none;
+  }
+  .scroll__mouse-img {
+    display: block;
+    width: 30px;
+    height: auto;
+  }
+  .stage .social-box {
+    flex-direction: column;
+    min-height: 171px;
+    max-width: 25px;
+    z-index: 2;
+  }
+  .stage .social-box__item {
+    background: none;
+    border: none;
+    width: 25px;
+    height: 25px;
+  }
+  .stage .social-box__img {
+    width: 25px;
+    height: 25px;
+  }
+  .stage__button {
+    min-width: 200px;
+    min-height: 50px;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.15em;
+  }
+  .catalog-slider-item__button {
+    min-width: 200px;
+    min-height: 50px;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.15em;
+  }
+  .catalog-checker {
+    display: block;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    text-decoration: none;
+    transform: rotate(90deg);
+    transform-origin: 100% 0;
+    position: relative;
+    cursor: pointer;
+  }
+  .catalog-checker::after {
+    display: block;
+    content: url("../img/icons/arrow-bottom.svg");
+    transform: rotate(-90deg) translateX(50%);
+    transform-origin: 100% 0;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    right: -30px;
+    top: 50%;
+  }
+  .stage__catalog-checker {
+    position: absolute;
+    right: 96px;
+    bottom: 144px;
+  }
+  .catalog-slider {
+    max-width: 1530px;
+    padding: 15px;
+    width: 100%;
+    min-height: 480px;
+    z-index: 2;
+  }
+  .catalog-slider__pagination {
+    display: none;
+  }
+  .catalog-slider-item::before {
+    content: '';
+    display: none;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    left: -10px;
+    right: -10px;
+  }
+  .catalog-slider-item:hover::before {
+    display: block;
+  }
+  .catalog-preview__title {
+    font-size: 220px;
+    line-height: 243px;
+    letter-spacing: 0.06em;
+    color: rgba(255, 255, 255, 0.03);
+    z-index: 1;
+    transform: translateY(185px);
+  }
+  .catalog-preview__title::after {
+    top: 35px;
+  }
+  .offers-content {
+    max-width: 1215px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .offers-content__img {
+    max-width: 697px;
+    width: 100%;
+    order: 2;
+  }
+  .offers-info {
+    max-width: 352px;
+    width: 100%;
+  }
+  .offers-info__title {
+    text-align: start;
+  }
+  .offers-info__title::after {
+    left: 0;
+    transform: translateX(0);
+  }
+  .offers-info__text {
+    text-align: start;
+  }
+  .offers-info__button {
+    margin: 45px 0 0 0;
+  }
+  .footer-nav {
+    max-width: 1000px;
+    width: 100%;
+  }
+  .footer-nav__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-nav__item + .footer-nav__item {
+    margin: 0;
+  }
+  .footer__social-box {
+    margin: 30px auto 0 auto;
+  }
+}
